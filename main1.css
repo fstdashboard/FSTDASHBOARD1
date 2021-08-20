@@ -1,99 +1,87 @@
-.table-content{
-  visibility: initial;
-} 
-.header-cards{
-  background-color:#e0e0e0;
-  margin-left:2px;
-  margin-right:2px;
-  margin-bottom:2px;
-  font-family: "archia";
-  font-weight:700;
-  font-size:15px;
-  color:#6C757D;
-  border-radius:3.5px;
+
+/* table*/
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.table td {
+  margin: 0;
+  border: 4px solid rgb(250, 250, 250);
+  white-space: nowrap;
+  border-top-width: 0px;
+  padding: 17px;
+  border-radius: 8px;
+  text-align: center;
 }
 
-/* .header-cards1:hover{
-  background-color: #f1d9d9;
-
-
+.table th {
+  margin: 0;
+  border: 4px solid rgb(250, 250, 250);
+  white-space: nowrap;
+  border-top-width: 0px;
+  padding: 17px;
+  border-radius: 8px;
+  text-align: left;
+  background-color: rgb(213, 214, 214);
+}
+#tdiv1 ,#tdiv2 ,#tdiv3 ,#tdiv4 {
+  width: 450px;
+  overflow-x: scroll;
+  margin-left: 18em;
+  overflow-y: visible;
+  padding: 0;
 }
 
-.header-cards2:hover{
-  background:rgb(187, 210, 241)!important; 
-
-  }
-  .header-cards3:hover{
-    background:rgb(220, 248, 207)!important; 
-      
-      }
-      .header-cards4:hover{
-        background-color: #d3d5d6;
-          }
-          .header-cards5:hover{
-            background-color: #f1f5b6;
-              } */
-     
-
-.row-cells{
-  margin-top:2px;
-  margin-bottom:2px;
-  margin-left:2px;
-  margin-right:2px;
-  font-family: "archia";
-  font-weight:800;
-  font-size:14px;
-  color:#6C757D;
-  border-radius:3px;
-  
+#tdiv5 {
+  width: 520px;
+  overflow-x: scroll;
+  margin-left: 4em;
+  overflow-y: visible;
+  padding: 0;
 }
-.first-cells{
-  background-color: rgb(240, 240, 240);
+#tdiva , #tdivb ,#tdivc ,#tdivd ,#tdive ,#tdivf ,#tdivg ,#tdivh ,#tdivi{
+  width: 1150px;
+  overflow-x: scroll;
+  margin-left: 4em;
+  overflow-y: visible;
+  padding: 0;
 }
-.all-cells{
-  background-color: rgb(247, 247, 247);
-}
-
-.row-css:hover .row-cells{
-  background-color: #d4d3d3;
-}
-.slider-tabs.nav.indicator {
+.headcol1 ,.headcol2 ,.headcol3 ,.headcol4 , .headcol5 {
+  text-align: left;
   position: absolute;
-  top:90%;
-  min-width: 0;
-  width: 2px;
-  height: 5px;
-  background:#0e3b0a;
-  transition: left .3s, width .3s;
+  width: 20em;
+  left: 0;
+  top: auto;
+  border-top-width: 2px;
+  margin-top: -1px;
+  background-color: rgb(224, 224, 224);
+}
+.headcol5 {
+  text-align: left;
+  position: absolute;
+  width: 6em;
+  left: 0;
+  top: auto;
+  border-top-width: 2px;
+  margin-top: -1px;
+  background-color: rgb(224, 224, 224);
+}
+.headcola , .headcolb ,.headcolc , .headcold ,.headcole ,.headcolf ,.headcolg ,.headcolh ,.headcoli{
+  text-align: left;
+  position: absolute;
+  width: 6em;
+  left: 0;
+  top: auto;
+  border-top-width: 2px;
+  margin-top: -1px;
+  background-color: rgb(224, 224, 224);
 }
 
-.slider-tabs.nav {
-  position: relative;
-  margin: 10px;
- 
+.long {
+  background: #ebebeb;
+  letter-spacing: 1px;
 }
-
-.slider-tabs.nav .nav-link.first:hover{
-  background:rgb(255, 214, 219)!important;
+.long.a5{
+  /* font-weight: bold; */
+  background-color: rgb(213, 214, 214);
 }
-.slider-tabs.nav .nav-link.sec:hover{
-  background:rgb(187, 210, 241)!important; 
-  
-}
-.slider-tabs.nav .nav-link.third:hover{
- background:rgb(220, 248, 207)!important; 
-}
-.slider-tabs.nav .nav-link.fourth:hover{
-  background:rgb(190, 190, 190)!important;
-  
-}
-.slider-tabs.nav .nav-link.fifth:hover{
-  background:rgb(237, 252, 183)!important;
-}
-
-.contentbar{
-  height: 40rem;
-  width: 40rem;
-  
-}
-/* hgfh */
