@@ -1,0 +1,99 @@
+.table-content{
+  visibility: initial;
+} 
+.header-cards{
+  background-color:#e0e0e0;
+  margin-left:2px;
+  margin-right:2px;
+  margin-bottom:2px;
+  font-family: "archia";
+  font-weight:700;
+  font-size:15px;
+  color:#6C757D;
+  border-radius:3.5px;
+}
+
+/* .header-cards1:hover{
+  background-color: #f1d9d9;
+
+
+}
+
+.header-cards2:hover{
+  background:rgb(187, 210, 241)!important; 
+
+  }
+  .header-cards3:hover{
+    background:rgb(220, 248, 207)!important; 
+      
+      }
+      .header-cards4:hover{
+        background-color: #d3d5d6;
+          }
+          .header-cards5:hover{
+            background-color: #f1f5b6;
+              } */
+     
+
+.row-cells{
+  margin-top:2px;
+  margin-bottom:2px;
+  margin-left:2px;
+  margin-right:2px;
+  font-family: "archia";
+  font-weight:800;
+  font-size:14px;
+  color:#6C757D;
+  border-radius:3px;
+  
+}
+.first-cells{
+  background-color: rgb(240, 240, 240);
+}
+.all-cells{
+  background-color: rgb(247, 247, 247);
+}
+
+.row-css:hover .row-cells{
+  background-color: #d4d3d3;
+}
+.slider-tabs.nav.indicator {
+  position: absolute;
+  top:90%;
+  min-width: 0;
+  width: 2px;
+  height: 5px;
+  background:#0e3b0a;
+  transition: left .3s, width .3s;
+}
+
+.slider-tabs.nav {
+  position: relative;
+  margin: 10px;
+ 
+}
+
+.slider-tabs.nav .nav-link.first:hover{
+  background:rgb(255, 214, 219)!important;
+}
+.slider-tabs.nav .nav-link.sec:hover{
+  background:rgb(187, 210, 241)!important; 
+  
+}
+.slider-tabs.nav .nav-link.third:hover{
+ background:rgb(220, 248, 207)!important; 
+}
+.slider-tabs.nav .nav-link.fourth:hover{
+  background:rgb(190, 190, 190)!important;
+  
+}
+.slider-tabs.nav .nav-link.fifth:hover{
+  background:rgb(237, 252, 183)!important;
+}
+
+.contentbar{
+  height: 40rem;
+  width: 40rem;
+  
+}
+/* hgfh */
